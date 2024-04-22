@@ -1,5 +1,6 @@
 import gsap from "gsap"
 import { AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime"
+import { useEffect } from "react"
 
 export const animatePageIn = () => {
     const bannerOne = document.getElementById("banner-1")
@@ -36,4 +37,22 @@ export const animatePageOut = (href: string, router: AppRouterInstance) => {
             }
         })
     }
+}
+
+export const ScrollAnimation = () => {
+    useEffect(() => {
+        const element = document.getElementsByClassName("animated-element")
+        const tl = gsap.timeline({
+            scrollTrigger: {
+                trigger: element,
+                start: 'top center',
+                end: 'bottom center',
+                scrub: true,
+                markers: false
+            }
+        })
+        tl.to(element, {
+            x: 800
+        })
+    })
 }

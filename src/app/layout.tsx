@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navigation from "./components/Navigation";
+import Navigation from "./components/Navigation/Navigation"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,12 +16,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-zinc-950">
       <body className={inter.className}>
-        <main className="w=1/2 mx-auto p-1">
-          <Navigation/>
+        <div className="dev-info">This website is under construction</div>
+        <main>
           {children}
         </main>
+        <Navigation/>
       </body>
     </html>
   );
