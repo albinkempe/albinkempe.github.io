@@ -72,25 +72,12 @@ footer {
     height: 2000px;
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1599px) {
     /* For desktop: */
-
-    html {
-        background-color: white;
-        font-weight: 500;
-    }
-    
     body {
         width: 86vw;
         height: 100vh;
         margin: 0 auto;
-    }
-    
-    .home {
-        margin-top: 2rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     
     .intro {
@@ -101,22 +88,11 @@ footer {
         justify-content: center;
         gap: 4rem;
     }
-
-    .divider {
-        margin: 5rem 0;
-        width: 100%;
-        border-bottom-width: 1px;
-        border-bottom-color: rgb(188, 188, 188);
-    }
     
     .profileImg {
         border-radius: 0.2rem;
         height: 20rem;
         width: 20rem;
-    }
-
-    #portfolio {
-        scroll-margin-top: 50px;
     }
     
     .hello {
@@ -132,20 +108,44 @@ footer {
         font-weight: bold;
         font-size: x-large;
     }
-    
-    h2 {
-        text-align: center;
-        font-size: xx-large;
+
+    #portfolio {
+        scroll-margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    /* For big screens: */
+    body {
+        width: 60vw;
+    }
+
+    .intro {
+        margin-top: 6rem;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 4rem;
     }
     
-    footer {
-        width: 100%;
-        text-align: center;
+    .profileImg {
+        border-radius: 0.2rem;
+        height: 20rem;
+        width: 20rem;
+    }
+    
+    .hello {
+        margin-top: 2rem;
         margin-bottom: 1rem;
-        font-size: small;
+        font-size: 5rem;
+        color: rgb(223, 94, 47);
+        font-weight: bold;
     }
     
-    .largediv {
-        height: 2000px;
+    .introText {
+        margin-top: 0;
+        font-weight: bold;
+        font-size: x-large;
     }
 }
