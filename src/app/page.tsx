@@ -17,7 +17,7 @@ const HomePage = () => {
         <Image className="profileImg" src={"/profile.jpg"} width={600} height={600} alt="Picture of Albin Kempe"/>
         <div className="introSide">
           <p className="hello">Hello!</p>
-          <p className="introText">I'm Albin,</p>
+          <p className="introText">I&aposm Albin,</p>
           <p className="introText">a UX/UI designer</p>
           <p className="introText">based in Stockholm, Sweden.</p>
         </div>
