@@ -1,9 +1,8 @@
-import styles from './CaseCard.module.css'
+import styles from './ExperienceBox.module.css'
 import React from "react";
 import Image from 'next/image'
 
-
-export default function CaseCard(props: { title: string; description: string; imgPath: string; link: string;}) {
+export default function ExperienceBox(props: { title: string; description: string; from: string; to: string; imgPath: string; }) {
     return (
         <div className={styles.card}>
             <Image
@@ -14,10 +13,9 @@ export default function CaseCard(props: { title: string; description: string; im
                 className={styles.img}
             />
             <div className={styles.bg}>
-                <p className={styles.title}>{props.title}</p>
+                <h2 className={styles.title}>{props.title}</h2>
                 <p>{props.description}</p>
-                <br></br>
-                <a className={styles.link} href={props.link} target="_blank" rel="noopener noreferrer">Learn more</a>
+                <p className={styles.dates}>{props.from} - {props.to}</p>
             </div>
         </div>
     )

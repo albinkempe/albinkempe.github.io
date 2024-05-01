@@ -23,7 +23,7 @@ export default function RootLayout({
           {children}
         </main>
         <footer>
-          <p>by Albin Kempe</p>
+          <a href="/about#socials"><p>by Albin Kempe</p></a>
         </footer>
       </body>
     </html>

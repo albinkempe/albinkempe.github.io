@@ -1,67 +1,62 @@
 .card {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    width: 92vw;
+    align-items: start;
+    width: 100%;
 }
 
 .bg {
     display: flex;
     flex-direction: column;
-    background-color: rgb(24 24 27);
-    width: 66.666666666%;
-    padding: 1rem;
-    border-top-left-radius: 23px;
-    border-bottom-left-radius: 23px;
+    align-items: start;
 }
 
 .title {
+    display: block;
+    font-size: xx-large;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
     font-weight: bold;
 }
 
 .img {
-    height: 33%;
-    width: 33.333333333%;
-    border-top-right-radius: 23px;
-    border-bottom-right-radius: 23px;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
 }
 
-.bg p {
-    text-align: start;
+.link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(223, 94, 47);
 }
 
 @media only screen and (min-width: 768px) {
     /* For desktop: */
 
     .card {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        width: 30vw;
+        justify-content: center;
+        gap: 2rem;
+        width: 100%;
     }
     
     .bg {
         display: flex;
         flex-direction: column;
-        background-color: rgb(24 24 27);
-        width: 66.666666666%;
-        padding: 1rem;
-        border-top-left-radius: 23px;
-        border-bottom-left-radius: 23px;
-    }
-    
-    .title {
-        font-weight: bold;
+        align-items: start;
+        width: 40%;
     }
     
     .img {
-        height: 33%;
-        width: 33.333333333%;
-        border-top-right-radius: 23px;
-        border-bottom-right-radius: 23px;
-    }
-
-    .bg p {
-        text-align: start;
+        border-radius: 0.2rem;
+        width: 25%;
+        margin-bottom: 0;
     }
 }

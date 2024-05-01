@@ -47,10 +47,22 @@
     padding: 0.8rem;
     text-align: center;
     font-size: large;
+    font-weight: 500;
+    transition: all 0.3s ease-in;
+}
+
+.item:hover {
+    background-color: rgb(241, 241, 241);
+    border-radius: 0.2rem;
+    transition: all 0.3s ease-in;
 }
 
 .active {
-    color: rgb(20, 105, 101);
+    color: rgb(223, 94, 47);
+}
+
+.active:hover {
+    background-color: white !important;
 }
 
 @media only screen and (min-width: 768px) {
@@ -102,10 +114,6 @@
         background-color: transparent;
         border-bottom-width: 0;
         border-bottom-color: transparent;
-    }
-    
-    .active {
-        color: rgb(20, 105, 101);
     }
 
     .icon {
