@@ -17,7 +17,7 @@
 .title {
     display: block;
     font-size: xx-large;
-    margin-bottom: 0.83em;
+    margin-bottom: 0.1em;
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
@@ -32,6 +32,22 @@
     font-weight: bold;
     text-decoration: underline;
     color: rgb(223, 94, 47);
+}
+
+.keywords {
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.keywords p {
+    display: inline;
+    font-size: small;
+    background-color: rgb(245, 234, 189);
+    padding: 4px 8px;
+    border-radius: 4px;
 }
 
 @media only screen and (min-width: 768px) {

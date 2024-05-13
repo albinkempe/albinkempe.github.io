@@ -27,6 +27,15 @@ const HomePage = () => {
       <section id="work">
         <a href="/#work"><h2>WORK</h2></a>
         <CaseCard 
+          title="Dartanjang"
+          description="In my master's thesis I investigate how social robots impact human risk-taking behaviour in economic games.
+                      For the study, a Furhat social robot was programmed to autonomously handle everything from greeting participants to giving instructions and 
+                      carrying out the experiment.
+          "
+          imgPath="/dartanjang.png"
+          keywords={["Degree Project", "Human-Robot Interactions", "Research"]}
+        />
+        <CaseCard 
           title="Energuesser"
           description="Excessive electricity consumption is a threat towards a sustainable future. 
                       There are a lot of things to do, but we can all start with ourselves. 
@@ -34,6 +43,7 @@ const HomePage = () => {
                       electronics and appliances consume."
           imgPath="/energuesser_main.png"
           link="https://www.figma.com/file/5ll8sP2M1RUJN9fx2gh9BM/Energuesser---Personal-Project-Prototype?type=design&node-id=0%3A1&mode=design&t=PbTbhSBA7yfYYaqs-1"
+          keywords={["Design Prototype"]}
         />
         <CaseCard 
           title="Twig"
@@ -44,20 +54,29 @@ const HomePage = () => {
                       the original work while also exploring how a digital version could take shape."
           imgPath="/twig_main.png"
           link="https://www.figma.com/file/dGe9wudSea4sx3FQ3Lbo6I/Branch%2FTwig?type=design&node-id=0%3A1&mode=design&t=tmN33UCfQ8EoVWLA-1"
+          keywords={["Design Prototype", "Collaboration", "Time Limit"]}
         />
         <CaseCard 
           title="Mushroom Defense"
-          description="This research-focused project explored how multimodal feedback influences user experience in a VR game.
-          "
+          description="This research-focused project explored how multimodal feedback influences user experience in a VR game."
           imgPath="/md_main.png"
           link="https://youtu.be/-rRA9Byxm8k"
+          keywords={["VR", "Unity", "Research", "Collaboration"]}
+        />
+        <CaseCard 
+          title="Handelsbanken 2.0"
+          description="This gamified version of Swedish bank Handelsbanken's mobile application is a result of a 5 hour design challenge.
+                      We had the opportunity to learn about UX in games from Lidia Chía Jiménez (Sr UX Designer) and receive feedback on our design."
+          imgPath="/hsb2.png"
+          link="https://www.figma.com/design/RdA1qw3rStqfZbZvr27TAD/Personal-Website?node-id=0%3A1&t=KOJFg1GgV1WLmTtc-1"
+          keywords={["Design Prototype", "Collaboration", "Time Limit"]}
         />
         <CaseCard 
           title="Saturn47"
-          description="Saturn47 is a retro-style game created in Java using Processing.
-          "
+          description="Saturn47 is a retro-style game created in Java using Processing."
           imgPath="/s_main.png"
           link="https://youtu.be/cBHnacziJac"
+          keywords={["Game", "Collaboration"]}
         />
       </section>
     </div>
