@@ -64,8 +64,8 @@ const HomePage = () => {
           keywords={["VR", "Unity", "Research", "Collaboration"]}
         />
         <CaseCard 
-          title="Handelsbanken 2.0"
-          description="This gamified version of Swedish bank Handelsbanken's mobile application is a result of a 5 hour design challenge.
+          title="Gamified Banking App"
+          description="This gamified version of a bank application is a result of a 5 hour design challenge.
                       We had the opportunity to learn about UX in games from Lidia Chía Jiménez (Sr UX Designer) and receive feedback on our design."
           imgPath="/hsb2.png"
           link="https://www.figma.com/design/RdA1qw3rStqfZbZvr27TAD/Personal-Website?node-id=0%3A1&t=KOJFg1GgV1WLmTtc-1"
