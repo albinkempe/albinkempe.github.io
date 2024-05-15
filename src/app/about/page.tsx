@@ -7,12 +7,20 @@ const AboutPage = () => {
         <div className="about">
             <div className="gallery">
                 <div className="galleryrow">
-                    <Image src={"/albin-1.jpg"} width={600} height={600} alt="Picture of Albin Kempe"/>
-                    <Image src={"/albin-2.jpg"} width={600} height={600} alt="Picture of Albin Kempe"/>
+                    <div className="imgPlacerholder">
+                        <Image src={"/albin-1.jpg"} width={600} height={600} alt="Picture of Albin Kempe"/>
+                    </div>
+                    <div className="imgPlacerholder">
+                        <Image src={"/albin-2.jpg"} width={600} height={600} alt="Picture of Albin Kempe"/>
+                    </div>
                 </div>
                 <div className="galleryrow">
-                    <Image src={"/albin-3.jpg"} width={600} height={600} alt="Picture of Albin Kempe"/>
-                    <Image src={"/albin-5.jpg"} width={600} height={600} alt="Picture of Albin Kempe"/>
+                    <div className="imgPlacerholder">
+                        <Image src={"/albin-3.jpg"} width={600} height={600} alt="Picture of Albin Kempe"/>
+                    </div>
+                    <div className="imgPlacerholder">
+                        <Image src={"/albin-5.jpg"} width={600} height={600} alt="Picture of Albin Kempe"/>
+                    </div>
                 </div>
             </div>
             <div className="desc">

@@ -43,7 +43,7 @@ const HomePage = () => {
                       electronics and appliances consume."
           imgPath="/energuesser_main.png"
           link="https://www.figma.com/file/5ll8sP2M1RUJN9fx2gh9BM/Energuesser---Personal-Project-Prototype?type=design&node-id=0%3A1&mode=design&t=PbTbhSBA7yfYYaqs-1"
-          keywords={["Design Prototype"]}
+          keywords={["Design Prototype", "Case Study"]}
         />
         <CaseCard 
           title="Twig"

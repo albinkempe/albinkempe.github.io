@@ -23,10 +23,10 @@ const Navigation = () => {
     return (
         <div className={styles.bar}>
             <div className={styles.header}>
-                    <div className={styles.title}>
+                    <a className={styles.title} href="/">
                         <div className={styles.box}></div>
-                        <a className={styles.h1} href="/">Albin Kempe</a>
-                    </div>
+                        <p className={styles.h1}>Albin Kempe</p>
+                    </a>
                     <a onClick={toggleMenu} className={styles.icon}>
                         {menuOpen ? <XMarkIcon className="h-7 w-7" /> : <Bars2Icon className="h-7 w-7" />}
                     </a>
