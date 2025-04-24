@@ -1,1 +1,0 @@
-import{t as a,a as o}from"../chunks/QIV4Hk93.js";import"../chunks/BnHYF_Ts.js";var n=a('<main class="flex h-screen items-center justify-center"><h1 class="text-3xl font-bold">Hello, world!</h1></main>');function l(e){var t=n();o(e,t)}export{l as component};
