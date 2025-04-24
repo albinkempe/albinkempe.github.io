@@ -1,1 +1,0 @@
-import{t as a,a as n}from"../chunks/QIV4Hk93.js";import"../chunks/BnHYF_Ts.js";var o=a('<main class="flex h-screen items-center justify-center"><h1 class="text-3xl font-bold">Albin Kempe</h1></main>');function s(e){var t=o();n(e,t)}export{s as component};
