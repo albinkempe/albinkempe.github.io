@@ -1,1 +1,0 @@
-import{f as m,a as o}from"../chunks/DyO0N1lL.js";import"../chunks/BzLozFAy.js";var n=m('<main class="svelte-1uha8ag"><h1 class="svelte-1uha8ag">Albin Kempe</h1></main>');function p(a){var e=n();o(a,e)}export{p as component};
