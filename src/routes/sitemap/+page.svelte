@@ -22,14 +22,13 @@
 	main {
 		display: flex;
 		flex-direction: column;
-		justify-content: start;
+		justify-content: center;
 		align-items: center;
 		height: 100vh;
 	}
 
 	h1 {
 		text-align: center;
-        margin-top: 20rem;
 	}
 
     ul {
@@ -45,5 +44,10 @@
         margin-top: 20px;
         text-decoration: none;
         color: #c6dff8;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: rgb(0, 218, 170);
     }
 </style>
