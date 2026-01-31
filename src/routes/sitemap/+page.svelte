@@ -4,10 +4,8 @@
     <ul>
         <li><a href="/">home</a></li>
         <li><a href="/sitemap">sitemap ←</a></li>
-        <li><a href="https://albinkempe.github.io/hsd/">hsd</a></li>
-        <li><a href="https://albinkempe.github.io/the-finals/">the-finals</a></li>
-        <li><a href="https://albinkempe.github.io/hsd-leaderboard/">hsd-leaderboard</a></li>
-        <li><a href="https://albinkempe.github.io/giza/">giza</a></li>
+        <li><a href="https://albinkempe.github.io/the-finals/">hsd ranks</a></li>
+        <li class="desktop-only"><a href="https://albinkempe.github.io/giza/">giza</a></li>
     </ul>
 </main>
 
@@ -29,6 +27,7 @@
 
 	h1 {
 		text-align: center;
+        font-size: 2em;
 	}
 
     ul {
@@ -44,10 +43,17 @@
         margin-top: 20px;
         text-decoration: none;
         color: #c6dff8;
+        font-size: 1.2em;
     }
 
     a:hover {
         text-decoration: underline;
         color: rgb(0, 218, 170);
+    }
+
+    @media (max-width: 600px) {
+        .desktop-only {
+            display: none;
+        }
     }
 </style>
