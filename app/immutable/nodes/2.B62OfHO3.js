@@ -1,1 +1,0 @@
-import{f as s,a as t}from"../chunks/DDDqGQwg.js";import"../chunks/eD3hFIyT.js";var m=s('<main class="svelte-1uha8ag"><div><h1 class="svelte-1uha8ag">Albin Kempe</h1> <p class="svelte-1uha8ag">MSE Computer Science | KTH</p></div> <a href="/sitemap" class="svelte-1uha8ag">→ sitemap</a></main>');function o(a){var e=m();t(a,e)}export{o as component};
