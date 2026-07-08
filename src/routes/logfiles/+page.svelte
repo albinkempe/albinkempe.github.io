@@ -2,7 +2,7 @@
 
 </script>
 
-<h1>Profile</h1>
+<h1>Log Files</h1>
 
 <style>
 
