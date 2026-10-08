@@ -6,9 +6,6 @@ const config = {
 	kit: {
 		appDir: 'app',
 		adapter: adapter()
-	},
-	prerender: {
-		default: true
 	}
 };
 
